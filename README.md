@@ -1,7 +1,7 @@
 # Task Management
 A simple task management app that allows users to register, login, and authorize users to manage tasks.
 It uses JWT-based authentication, bcrypt for secure passwords,and Node.js with Express for the backend with mysql database.
-The frontend is built with React,tailwindcss, antdesign UI.
+The frontend is built with React,tailwindcss,redux-toolkit antdesign UI. Token and Id is stored in localstorage
 
 # Features
 User Authentication: Register, login, and JWT-based authentication with bcrypt for password hashing.
@@ -18,8 +18,6 @@ DELETE /tasks/delete-task/:id: Delete a task.
 ## Backend
 git clone https://github.com/Anjalisingh44/blys-assessment.git
 cd backend 
-## install dependencies
-npm install 
 # set up environment variables
 JWT_SECRET, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME
 # start the server
@@ -28,6 +26,9 @@ npm run dev
 git clone https://github.com/Anjalisingh44/blys-assessment.git
 cd frontend
 cd vite-project
+## install dependencies
+npm install 
+# start the server
 npm run dev
 # Database 
 Users Table: Stores user credentials (username, email, password).
