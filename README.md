@@ -1,7 +1,7 @@
 # Task Management
 A simple task management app that allows users to register, login, and authorize users to manage tasks.
 It uses JWT-based authentication, bcrypt for secure passwords,and Node.js with Express for the backend with mysql database.
-The frontend is built with React,tailwindcss,redux-toolkit antdesign UI. Token and Id is stored in localstorage
+The frontend is built with React,tailwindcss,redux-toolkit and antdesign UI. Token and Id is stored in localstorage.
 
 # Features
 User Authentication: Register, login, and JWT-based authentication with bcrypt for password hashing.
