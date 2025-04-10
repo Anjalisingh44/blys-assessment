@@ -16,7 +16,7 @@ DELETE /tasks/delete-task/:id: Delete a task.
 
 # Setup
 ## Backend
-git clone 
+git clone https://github.com/Anjalisingh44/blys-assessment.git
 cd backend 
 ## install dependencies
 npm install 
@@ -25,7 +25,7 @@ JWT_SECRET, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME
 # start the server
 npm run dev
 # Frontend
-git clone 
+git clone https://github.com/Anjalisingh44/blys-assessment.git
 cd frontend
 cd vite-project
 npm run dev
