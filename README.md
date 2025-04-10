@@ -33,3 +33,5 @@ npm run dev
 # Database 
 Users Table: Stores user credentials (username, email, password).
 Tasks Table: Stores tasks (title, description) for each user.
+# Registration
+The password should be at least 8 characters long, with one uppercase letter, one number, and one special character."
