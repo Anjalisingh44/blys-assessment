@@ -26,7 +26,7 @@ npm run dev
 git clone https://github.com/Anjalisingh44/blys-assessment.git
 cd frontend
 cd vite-project
-## install dependencies
+## Install dependencies
 npm install 
 # start the server
 npm run dev
