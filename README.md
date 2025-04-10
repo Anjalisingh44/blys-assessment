@@ -19,7 +19,13 @@ DELETE /tasks/delete-task/:id: Delete a task.
 git clone https://github.com/Anjalisingh44/blys-assessment.git
 cd backend 
 # set up environment variables
-JWT_SECRET, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME
+PORT,
+DB_HOST,
+DB_USER,
+DB_PASSWORD,
+DB_NAME,
+ACCESS_TOKEN_SECRET,
+
 # start the server
 npm run dev
 # Frontend
